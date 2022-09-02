@@ -1,0 +1,155 @@
+"inventory": {
+    "devices": {
+        "meters": [{
+            "form": "physical",
+            "name": "Export Meter",
+            "type": "FeedIn",
+            "model": "SE-MTR-3Y-240V-A",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "manufacturer": "SolarEdge",
+            "serial_number": "606500558",
+            "firmwareVersion": "75",
+            "connectedSolaredgeDeviceSN": "73029B30-40"
+        }, {
+            "form": "physical",
+            "name": "Import Meter",
+            "type": "Purchased",
+            "model": "SE-MTR-3Y-240V-A",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "manufacturer": "SolarEdge",
+            "serial_number": "606500558",
+            "firmwareVersion": "75",
+            "connectedSolaredgeDeviceSN": "73029B30-40"
+        }, {
+            "form": "physical",
+            "name": "Production Meter",
+            "type": "Production",
+            "model": "SE-RGMTR-1D-240C-B",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "manufacturer": "SolarEdge",
+            "serial_number": "606463663",
+            "firmwareVersion": "77",
+            "connectedSolaredgeDeviceSN": "73029B30-40"
+        }, {
+            "form": "physical",
+            "name": "Production Meter",
+            "type": "Production",
+            "model": "SE-RGMTR-1D-240C-B",
+            "status": "normal",
+            "connectedTo": "Inverter 2",
+            "manufacturer": "SolarEdge",
+            "serial_number": "606492077",
+            "firmwareVersion": "77",
+            "connectedSolaredgeDeviceSN": "73031E44-D8"
+        }, {
+            "form": "virtual",
+            "name": "Self Consumption",
+            "type": "SelfConsumption",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "firmwareVersion": "",
+            "connectedSolaredgeDeviceSN": "73029B30-40"
+        }, {
+            "form": "virtual",
+            "name": "Consumption Meter",
+            "type": "Consumption",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "firmwareVersion": "",
+            "connectedSolaredgeDeviceSN": "73029B30-40"
+        }],
+        "sensors": [],
+        "gateways": [],
+        "batteries": [{
+            "name": "Battery 1.1",
+            "model": "R15563P3SSEG12009211024",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "manufacturer": "LG",
+            "serial_number": "R15563P3SSEG12009211024",
+            "firmwareVersion": "DCDC 0.0.0 BMS 0.0.0.0",
+            "nameplateCapacity": 9800,
+            "connectedInverterSn": "73029B30-40"
+        }, {
+            "name": "Battery 1.4",
+            "model": "R15563P3SSEG22011179039",
+            "status": "normal",
+            "connectedTo": "Inverter 1",
+            "manufacturer": "LG",
+            "serial_number": "R15563P3SSEG22011179039",
+            "firmwareVersion": "DCDC 7.4.8 BMS 0.0.0.0",
+            "nameplateCapacity": 9800,
+            "connectedInverterSn": "73029B30-40"
+        }, {
+            "name": "Battery 2.1",
+            "model": "R15563P3SSEG22011179033",
+            "status": "normal",
+            "connectedTo": "Inverter 2",
+            "manufacturer": "LG",
+            "serial_number": "R15563P3SSEG22011179033",
+            "firmwareVersion": "DCDC 0.0.0 BMS 0.0.0.0",
+            "nameplateCapacity": 9800,
+            "connectedInverterSn": "73031E44-D8"
+        }, {
+            "name": "Battery 2.3",
+            "model": "R15563P3SSEG12009211023",
+            "status": "normal",
+            "connectedTo": "Inverter 2",
+            "manufacturer": "LG",
+            "serial_number": "R15563P3SSEG12009211023",
+            "firmwareVersion": "DCDC 0.0.0 BMS 0.0.0.0",
+            "nameplateCapacity": 9800,
+            "connectedInverterSn": "73031E44-D8"
+        }],
+        "inverters": [{
+            "name": "Inverter 1",
+            "model": "SE7600H-USS3BBC14",
+            "status": "normal",
+            "cpu_version": "4.16.19",
+            "manufacturer": "SolarEdge",
+            "serial_number": "73029B30-40",
+            "communication_method": "ETHERNET",
+            "connected_optimizers": 18
+        }, {
+            "name": "Inverter 2",
+            "model": "SE7600H-USS3BBC14",
+            "status": "normal",
+            "cpu_version": "4.16.19",
+            "manufacturer": "SolarEdge",
+            "serial_number": "73031E44-D8",
+            "communication_method": "ETHERNET",
+            "connected_optimizers": 18
+        }]
+    },
+    "total_devices": 12,
+    "device_status_summary": {
+        "meters": {
+            "bad": 0,
+            "good": 6,
+            "total": 6
+        },
+        "sensors": {
+            "bad": 0,
+            "good": 0,
+            "total": 0
+        },
+        "gateways": {
+            "bad": 0,
+            "good": 0,
+            "total": 0
+        },
+        "batteries": {
+            "bad": 0,
+            "good": 4,
+            "total": 4
+        },
+        "inverters": {
+            "bad": 0,
+            "good": 2,
+            "total": 2
+        }
+    }
+}
